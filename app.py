@@ -9,7 +9,7 @@ with open("serotonin_dopamine_model.pkl", "rb") as f:
     dopamine_model = models["dopamine_model"]
 
 # Streamlit UI
-st.image("image.jpg")
+st.image("images.jpg")
 st.title("Serotonin & Dopamine Level Predictor")
 st.write("Enter the feature values to predict neurotransmitter levels.")
 
